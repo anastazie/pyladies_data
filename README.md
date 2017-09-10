@@ -48,7 +48,8 @@ Spustíte Jupyter Notebook pomocí příkazu `jupyter notebook`
 
 ## Program
 
-1. Úvod. Získání dat [Přednáška](https://docs.google.com/presentation/d/1a4jWMLkExi0yS4-PvnwJhvME-9DvIOs3592phCzJuuY/edit?usp=sharing)
+1. Úvod. Získání dat 
+  - [Přednáška](https://docs.google.com/presentation/d/1a4jWMLkExi0yS4-PvnwJhvME-9DvIOs3592phCzJuuY/edit?usp=sharing)
 
 1. Čištění dat 
 
