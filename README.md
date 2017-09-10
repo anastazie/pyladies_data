@@ -16,6 +16,27 @@ Kurz bude probíhat v Akademii CZ NIC ([Milešovská 1136/5, Praha 3](https://ma
 
 ## Instalace
 
+Pro kurz můžete používat Python 3.5 nebo 3.6
+
+### Windows
+
+1. Nainstalujte [anacondu](https://docs.continuum.io/anaconda/install/windows).
+
+Pandas už by měl být nainstalovaný. 
+
+Pokud ne, nainstalujte ho pomocí příkazu `conda install pandas` např. v `GitBash`.
+
+
+### Linux, MacOS
+
+1. Nainstalujte pandas
+`pip3 install pandas`
+
+2. Nainstalujte Jupyter Notebook
+`pip3 install jupyter`
+
 ## Program
+
+1. Získání dat 
 
 
