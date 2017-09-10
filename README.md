@@ -43,11 +43,19 @@ Protože máte python nainstalovaný pomocí Anacondy, program na spuštění Ju
 
 ### Linux, MacOS
 
-Spustíte Jupyter Notebook pomocí příkazu `jupyter notebook`.
+Spustíte Jupyter Notebook pomocí příkazu `jupyter notebook`
 
 
 ## Program
 
-1. Získání dat [Přednáška](https://docs.google.com/presentation/d/1a4jWMLkExi0yS4-PvnwJhvME-9DvIOs3592phCzJuuY/edit?usp=sharing)
+1. Úvod. Získání dat [Přednáška](https://docs.google.com/presentation/d/1a4jWMLkExi0yS4-PvnwJhvME-9DvIOs3592phCzJuuY/edit?usp=sharing)
+
+1. Čištění dat 
+
+1. Grafy 
+
+1. Interaktivní aplikace 
+
+1. Obhajoba projektu
 
 
