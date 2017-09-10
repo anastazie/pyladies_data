@@ -1,4 +1,4 @@
-# Kurz datové analýzy v Python - Pyladies 2017
+# Kurz "Datová analýza pomocí Pythonu" - Pyladies 2017
 
 
 ## Informace ke kurzu datové analýzy Pyladies
