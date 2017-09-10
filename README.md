@@ -7,7 +7,7 @@ Kurz bude probíhat v Akademii CZ NIC (Milešovská 1136/5, Praha 3) každé ute
 
 ### Rozvrh
 | Datum | Téma|
----------------
+|-------|--------|
 | 5.10.2017 | Získání dat |
 | 12.10.2017 | Čištění dat |
 | 19.10.2017 |	Grafy |
