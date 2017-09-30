@@ -52,6 +52,7 @@ Spustíte Jupyter Notebook pomocí příkazu `jupyter notebook`
     - [Přednáška](https://docs.google.com/presentation/d/1a4jWMLkExi0yS4-PvnwJhvME-9DvIOs3592phCzJuuY/edit?usp=sharing)
 
 1. Čištění dat 
+    - [Přednáška](https://docs.google.com/presentation/d/1Eqz0zh4jK2fFMU0O2GQ2ryoAqfv_J4wL2QBZHlaizOc/edit?usp=sharing)
 
 1. Grafy 
 
