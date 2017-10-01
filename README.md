@@ -50,6 +50,7 @@ Spustíte Jupyter Notebook pomocí příkazu `jupyter notebook`
 
 1. Úvod. Získání dat 
     - [Přednáška](https://docs.google.com/presentation/d/1a4jWMLkExi0yS4-PvnwJhvME-9DvIOs3592phCzJuuY/edit?usp=sharing)
+    - [JupyterNotebook](https://github.com/anastazie/pyladies_data/blob/master/1_pyladies_data.ipynb)
 
 1. Čištění dat 
     - [Přednáška](https://docs.google.com/presentation/d/1Eqz0zh4jK2fFMU0O2GQ2ryoAqfv_J4wL2QBZHlaizOc/edit?usp=sharing)
@@ -59,5 +60,6 @@ Spustíte Jupyter Notebook pomocí příkazu `jupyter notebook`
 1. Interaktivní aplikace 
 
 1. Obhajoba projektu
+    - [Informace](https://docs.google.com/presentation/d/1HLYrwprlPZuB2_e1Czo6WDplzqLF0k_ll-cN4p9vTOA/edit?usp=sharing)
 
 
