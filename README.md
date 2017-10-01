@@ -75,15 +75,15 @@ pip install dash-renderer
 
 
 ```
-pip3 install pandas
-pip3 install pyplot
-pip3 install requests
-pip3 install jupyter
-pip3 install xlrd
-pip3 install dash
-pip3 install dash-core-components
-pip3 install dash-html-components
-pip3 install dash-renderer
+pip install pandas
+pip install pyplot
+pip install requests
+pip install jupyter
+pip install xlrd
+pip install dash
+pip install dash-core-components
+pip install dash-html-components
+pip install dash-renderer
 ```
 
 Pozn. Je možné, že budete muset použít sudo (např. `sudo pip install pandas`). Pokud máte i Python2, použijte `pip3`
