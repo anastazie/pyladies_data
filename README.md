@@ -24,15 +24,23 @@ Pro kurz můžete používat Python 3.5 nebo 3.6
 
 Pandas už by měl být nainstalovaný. 
 
-Pokud ne, nainstalujte ho pomocí příkazu `conda install pandas` např. v `GitBash`.
+
 
 
 ### Linux, MacOS
 
+1. Nainstalujte python
+    1. Ubuntu, Debian
+    `sudo apt install python3 python3-pip`
+    1. MacOS
+    `brew install python3`
+    Pozn. pokud nemate brew, nainstalujte ho, viz [navod](https://brew.sh/)
+    
+
 1. Nainstalujte pandas
 `pip3 install pandas`
 
-2. Nainstalujte Jupyter Notebook
+1. Nainstalujte Jupyter Notebook
 `pip3 install jupyter`
 
 ## Spuštění Jupyter Notebooku
@@ -45,6 +53,44 @@ Protože máte python nainstalovaný pomocí Anacondy, program na spuštění Ju
 
 Spustíte Jupyter Notebook pomocí příkazu `jupyter notebook`
 
+## Instalace knihoven
+
+### Anaconda
+
+1. Do `Anaconda prompt`
+
+```
+conda install pandas
+conda install pyplot
+conda install requests
+conda install jupyter
+conda install xlrd
+pip install dash
+pip install dash-core-components
+pip install dash-html-components
+pip install dash-renderer
+```
+
+### Pip
+
+
+```
+pip3 install pandas
+pip3 install pyplot
+pip3 install requests
+pip3 install jupyter
+pip3 install xlrd
+pip3 install dash
+pip3 install dash-core-components
+pip3 install dash-html-components
+pip3 install dash-renderer
+```
+
+Pozn. Je možné, že budete muset použít sudo (např. `sudo pip install pandas`). Pokud máte i Python2, použijte `pip3`
+
+### Kontrola instalace
+
+Po instalaci zkontrolujte verze dle `requirements.txt`.
 
 ## Program
 
