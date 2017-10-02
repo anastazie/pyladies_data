@@ -36,11 +36,11 @@ Podle dat [Českého statistického úřadu](https://www.czso.cz/csu/czso/ceska-
         figure = {
             'data': [],
             'layout': {
-                'title': 'Dash Data Visualization'
+                'title': ''
             }
         }
     ),
-    html.Label('Dropdown'),
+    html.Label('Vyberte typ grafu'),
     dcc.Dropdown(
         id = 'chooser',
         options = [{'label': label, 'value': key} for key, label in OPTIONS.items()],
