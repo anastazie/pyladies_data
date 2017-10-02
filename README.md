@@ -3,7 +3,7 @@
 
 ## Informace ke kurzu datové analýzy Pyladies
 
-Kurz bude probíhat v Akademii CZ NIC ([Milešovská 1136/5, Praha 3](https://mapy.cz/s/22d5n)) každé uterý od 5.10 do 2.11 od 18 do 20 hodin.
+Kurz bude probíhat v Akademii CZ NIC ([Milešovská 1136/5, Praha 3](https://mapy.cz/s/22d5n)) každý čtvrtek od 5.10 do 2.11 od 18 do 20 hodin.
 
 ### Rozvrh
 | Datum | Téma|
