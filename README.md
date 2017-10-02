@@ -20,12 +20,10 @@ Pro kurz můžete používat Python 3.5 nebo 3.6
 
 ### Windows
 
-1. Nainstalujte [anacondu](https://docs.continuum.io/anaconda/install/windows).
+1. Nainstalujte anacondu 4.4.0 [32-bit](https://repo.continuum.io/archive/Anaconda3-4.4.0-Windows-x86.exe) nebo [64-bit](https://repo.continuum.io/archive/Anaconda3-4.4.0-Windows-x86_64.exe).
 
-Pandas už by měl být nainstalovaný. 
-
-
-
+1. Nainstalujte GitBash pomocí následujícícho příkazu v Anaconda prompt. GiBash se objeví ve startovním menu
+`conda install git`
 
 ### Linux, MacOS
 
