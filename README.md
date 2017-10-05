@@ -59,10 +59,10 @@ Spustíte Jupyter Notebook pomocí příkazu `jupyter notebook`
 
 ```
 conda install pandas
-conda install pyplot
 conda install requests
 conda install jupyter
 conda install xlrd
+pip install plotly
 pip install dash
 pip install dash-core-components
 pip install dash-html-components
@@ -74,10 +74,10 @@ pip install dash-renderer
 
 ```
 pip install pandas
-pip install pyplot
 pip install requests
 pip install jupyter
 pip install xlrd
+pip install plotly
 pip install dash
 pip install dash-core-components
 pip install dash-html-components
