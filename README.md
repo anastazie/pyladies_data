@@ -100,7 +100,7 @@ Po instalaci zkontrolujte verze dle `requirements.txt`.
     - [Přednáška](https://docs.google.com/presentation/d/1Eqz0zh4jK2fFMU0O2GQ2ryoAqfv_J4wL2QBZHlaizOc/edit?usp=sharing)
     - [JupyterNotebook](https://github.com/anastazie/pyladies_data/blob/master/2_pyladies_data.ipynb)
 
-1. Grafy 
+1. Grafy
     - [Přednáška](https://docs.google.com/presentation/d/162lNlIfFa91JXlxn49Idl7vSTv0U1yFi6nGJaTdb2CY/edit?usp=sharing)
 
 1. Interaktivní aplikace 
