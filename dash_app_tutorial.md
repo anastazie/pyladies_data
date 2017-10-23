@@ -60,9 +60,63 @@ Popište osu x u předešlého grafu.
 
 `Dash` obsahuje 2 hlavní typy komponentů - `dash_html_components` a `dash_core_components`.
 
+### HTML komponenty
+
 `dash_html_components` obsahuje objekty pro HTML značky. V nášem případě  to jsou `html.Div()` (blokový element) a
 `html.H1()` (velký nadpis).
 
+*Poznámka*: abychom psali méně, importujeme `dash_html_components` takto: `import dash_html_components as html`
+
 ### Cvičení
 
-Přidejte 
+Za velký nadpis přidejte odstavec (`html.P`) kde bude napsáno `Ahoj`.
+ 
+
+ 
+## Interaktivní komponenty
+
+Knihovna `Dash` obsahuje funkce, které dovolují jednoduše vytvářet interaktivní objekty, například grafy, intektivní tabulky, možnosti volby a markdown.
+
+Importujeme tyto funkce následně: `import dash_core_components as dcc`.
+
+Místo html můžeme používat markdown (značkovací jazyk):
+
+```
+import dash_core_components as dcc
+
+dcc.Markdown('''
+# Dash a Markdown
+
+Dash podporuje [Markdown](http://commonmark.org/help).
+
+Markdown je jednoduchý způsob jak psát a formatovat text.
+Obsahuje It includes a syntax for things like **tučný text** and *kurziva*,
+[odkaz](http://commonmark.org/help), vnořený `kód`, seznamy,
+citáty, atd.
+''')
+```
+
+### Cvičení
+
+
+
+Tady je příklad vytvoření výběrového pole
+```
+import dash_core_components as dcc
+
+
+dcc.Dropdown(
+    options=[
+        {'label': 'Cena listků podle třídy', 'value': 'fare_class'},
+        {'label': 'Věk cestujících podle třídy', 'value': 'age_class'},
+    ],
+    value='fare_class'
+)
+```
+`label` má hodnotu, která se zobrazí ne webové stránce, `value` je hodnota, která může být použitá pro 
+
+*Poznámka*: pokud chete vyzkoušt vyše uvedený kód, uložte ho do samostatného souboru a spusťte pomocí příkazu ` python <nazev_vaseho_souboru.py>`.
+ 
+
+### Cvičení
+ 
