@@ -28,11 +28,12 @@ app.layout = html.Div(children=[
         id='example-graph',
         figure={
             'data': [
-                {'x': [1, 2, 3], 'y': [4, 1, 2], 'type': 'bar', 'name': 'SF'},
-                {'x': [1, 2, 3], 'y': [2, 4, 5], 'type': 'bar', 'name': u'Montréal'},
+                {'x': [1, 2, 3], 'y': [4, 1, 2], 'type': 'bar', 'name': ''Cherbourg''},
+                {'x': [1, 2, 3], 'y': [2, 4, 5], 'type': 'bar', 'name': 'Queenstown'},
+                {'x': [1, 2, 3], 'y': [3, 2, 3], 'type': 'bar', 'name': 'Southampton'}
             ],
             'layout': {
-                'title': 'Dash Data Visualization'
+                'title': 'Nástupní místo dle třídy jizdenky'
             }
         }
     )
@@ -98,7 +99,9 @@ citáty, atd.
 
 ### Cvičení
 
+Pridejte pomocí `dcc.Markdown` do `html.Div` velký nápis.
 
+### Výber z hodnot
 
 Tady je příklad vytvoření výběrového pole
 ```
@@ -116,7 +119,20 @@ dcc.Dropdown(
 `label` má hodnotu, která se zobrazí ne webové stránce, `value` je hodnota, která může být použitá pro 
 
 *Poznámka*: pokud chete vyzkoušet výše uvedený kód, uložte ho do samostatného souboru a spusťte pomocí příkazu `python <nazev_vaseho_souboru.py>`.
- 
+
+
+Příklad přepinače - můžete vybrat jednu z hodnot.
+```
+import dash_core_components as dcc
+
+dcc.RadioItems(
+    options=[
+        {'label': 'Histogram', 'value': 'hist'},
+        {'label': 'Boxplot', 'value': 'boxplot'}
+    ],
+    value='hist'
+)
+```
 
 ### Cvičení
  
