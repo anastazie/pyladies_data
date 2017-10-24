@@ -175,3 +175,11 @@ if __name__ == '__main__':
 ```
 POkud napišemé cokoliv do okénka (`dcc.Input`), změní se vstupní data do `@app.callback` (`Input(component_id='input-text', component_property='value')`). Proto se zavolá funkce a `html.Div` s id `display-text` zobrazí text, který jsme zadali do okénka, protože tak je definována funkce `update_output_div`.
  
+### Cvičení
+
+Upravte výše uvedený kod:
+1. Vložte nadpis (`html.H1`) před `dcc.Input` a pojmenujte jeho id 'big-title'
+2. Předělejte `app.callback` aby aktualizoval nadpis, ne `html.Div`
+3. Předělejte funkci `update_output_div` na `update_output_h1` aby varcela 'Zprava dne:' a text, který jste zadali
+
+
