@@ -18,10 +18,10 @@ import dash_html_components as html
 app = dash.Dash()
 
 app.layout = html.Div(children=[
-    html.H1(children='Hello Dash'),
+    html.H1(children='Titanik'),
 
     html.Div(children='''
-        Dash: A web application framework for Python.
+        Data o Titaniku
     '''),
 
     dcc.Graph(
@@ -55,7 +55,7 @@ Vaše aplikace bude na adrese `http://127.0.0.1:8050/`
 
 ### Cvičení
 
-Popište osu x u předešlého grafu.
+Přidejte popisek osy x u předešlého grafu ('třída jízdenky').
 
 ## Komponenty `Dash`
 
@@ -70,7 +70,7 @@ Popište osu x u předešlého grafu.
 
 ### Cvičení
 
-Za velký nadpis přidejte odstavec (`html.P`) kde bude napsáno `Ahoj`.
+Za velký nadpis přidejte odstavec (`html.P`) kde bude napsáno `Popis dat tady.`.
  
 
  
@@ -99,7 +99,7 @@ citáty, atd.
 
 ### Cvičení
 
-Pridejte pomocí `dcc.Markdown` do `html.Div` velký nápis.
+Pridejte pomocí `dcc.Markdown` do `html.Div` místo `html.P` odkaz na [dokumentaci k datem](https://www.kaggle.com/c/titanic/data).
 
 ### Výber z hodnot
 
@@ -110,10 +110,10 @@ import dash_core_components as dcc
 
 dcc.Dropdown(
     options=[
-        {'label': 'Cena listků podle třídy', 'value': 'fare_class'},
-        {'label': 'Věk cestujících podle třídy', 'value': 'age_class'},
+        {'label': 'Možnost A', 'value': 'val_a'},
+        {'label': 'Možnost B', 'value': 'val_b'},
     ],
-    value='fare_class'
+    value='val_a'
 )
 ```
 `label` má hodnotu, která se zobrazí ne webové stránce, `value` je hodnota, která může být použitá pro 
@@ -127,12 +127,22 @@ import dash_core_components as dcc
 
 dcc.RadioItems(
     options=[
-        {'label': 'Histogram', 'value': 'hist'},
-        {'label': 'Boxplot', 'value': 'boxplot'}
+        {'label': 'Tato možnost', 'value': 'variant1'},
+        {'label': 'Nebo tato', 'value': 'variant2'}
     ],
-    value='hist'
+    value='variant'
 )
 ```
 
+Další možnosti jsou [tady](https://plot.ly/dash/dash-core-components).
+
+
 ### Cvičení
+
+Do své aplikace přidejte výběrové pole s možnostmi: 'Cena listků podle třídy' a 'Věk cestujících podle třídy' (hodnoty 'fare_class' a 'age_class').
+Poté přijdete přepináč s možnostmi: 'Histogram' a 'Boxplot' (hodnoty 'hist' a 'boxplot').
+
+## Dekoratory
+
+
  
