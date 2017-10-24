@@ -75,7 +75,7 @@ Za velký nadpis přidejte odstavec (`html.P`) kde bude napsáno `Ahoj`.
  
 ## Interaktivní komponenty
 
-Knihovna `Dash` obsahuje funkce, které dovolují jednoduše vytvářet interaktivní objekty, například grafy, intektivní tabulky, možnosti volby a markdown.
+Knihovna `Dash` obsahuje funkce, které dovolují jednoduše vytvářet interaktivní objekty, například grafy, interaktivní tabulky, možnosti volby a markdown.
 
 Importujeme tyto funkce následně: `import dash_core_components as dcc`.
 
@@ -115,7 +115,7 @@ dcc.Dropdown(
 ```
 `label` má hodnotu, která se zobrazí ne webové stránce, `value` je hodnota, která může být použitá pro 
 
-*Poznámka*: pokud chete vyzkoušt vyše uvedený kód, uložte ho do samostatného souboru a spusťte pomocí příkazu ` python <nazev_vaseho_souboru.py>`.
+*Poznámka*: pokud chete vyzkoušet výše uvedený kód, uložte ho do samostatného souboru a spusťte pomocí příkazu `python <nazev_vaseho_souboru.py>`.
  
 
 ### Cvičení
