@@ -48,9 +48,6 @@ Pokud pojmenujete svoji aplikaci `app.py`, spustíte ji následujícím příkaz
 ```
 $ python app.py
  * Running on http://127.0.0.1:8050/ (Press CTRL+C to quit)
- * Restarting with stat
- * Debugger is active!
- * Debugger PIN: 155-644-719
 ```
 Vaše aplikace bude na adrese `http://127.0.0.1:8050/`
 
