@@ -14,11 +14,12 @@ Tady je úkázka jednoduché aplikace
 import dash
 import dash_core_components as dcc
 import dash_html_components as html
+import plotly.graph_objs as go
 
 app = dash.Dash()
 
 app.layout = html.Div(children=[
-    html.H1(children='Titanik'),
+    html.H1(children='Dash'),
 
     html.Div(children='''
         Data o Titaniku
@@ -28,9 +29,9 @@ app.layout = html.Div(children=[
         id='example-graph',
         figure={
             'data': [
-                {'x': [1, 2, 3], 'y': [4, 1, 2], 'type': 'bar', 'name': ''Cherbourg''},
-                {'x': [1, 2, 3], 'y': [2, 4, 5], 'type': 'bar', 'name': 'Queenstown'},
-                {'x': [1, 2, 3], 'y': [3, 2, 3], 'type': 'bar', 'name': 'Southampton'}
+                go.Bar(x = [1, 2, 3], y = [4, 1, 2], name ='Cherbourg'),
+                go.Bar(x = [1, 2, 3], y = [2, 4, 5], name = 'Queenstown'),
+                go.Bar(x = [1, 2, 3], y = [3, 2, 3], name = 'Southampton')
             ],
             'layout': {
                 'title': 'Nástupní místo dle třídy jizdenky'
@@ -40,7 +41,7 @@ app.layout = html.Div(children=[
 ])
 
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run_server()
 ```
 
 Pokud pojmenujete svoji aplikaci `app.py`, spustíte ji následujícím příkazem:
