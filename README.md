@@ -105,8 +105,12 @@ Po instalaci zkontrolujte verze dle `requirements.txt`.
     - [JupyterNotebook](https://github.com/anastazie/pyladies_data/blob/master/3_pyladies_data.ipynb)
 
 1. Interaktivní aplikace 
+    - [Návod](https://github.com/anastazie/pyladies_data/blob/master/dash_app_tutorial.md)
+    - [Návod - nasazení Dash](https://github.com/anastazie/pyladies_data/blob/master/dash_app_deployment.md)
 
 1. Obhajoba projektu
     - [Informace](https://docs.google.com/presentation/d/1HLYrwprlPZuB2_e1Czo6WDplzqLF0k_ll-cN4p9vTOA/edit?usp=sharing)
+    - [JupyterNotebook](https://github.com/anastazie/pyladies_data/blob/master/dash_data_preparation.ipynb)
+    - [Příklad projektu](http://dash-birth.herokuapp.com/)
 
 
