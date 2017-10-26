@@ -157,7 +157,7 @@ import dash_html_components as html
 app = dash.Dash()
 
 app.layout = html.Div([
-    dcc.Input(id='input-text'', value='initial value', type="text"),
+    dcc.Input(id='input-text', value='initial value', type="text"),
     html.Div(id='display-text')
 ])
 
