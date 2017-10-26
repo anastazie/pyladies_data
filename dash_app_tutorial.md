@@ -208,6 +208,7 @@ app.layout = html.Div(children=[
         id='example-graph',
     ),
     dcc.Dropdown(
+        id = 'dropdown-input',
         options=[
             {'label': 'Cena listků podle třídy', 'value': 'fare_class'},
             {'label': 'Věk cestujících podle třídy', 'value': 'age_class'},
