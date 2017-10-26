@@ -5,6 +5,8 @@
 
 Kurz bude probíhat v Akademii CZ NIC ([Milešovská 1136/5, Praha 3](https://mapy.cz/s/22d5n)) každý čtvrtek od 5.10 do 2.11 od 18 do 20 hodin.
 
+V případě dotazů napište na `nasta@sedlakovi.org`
+
 ### Rozvrh
 | Datum | Téma|
 |-------|--------|
