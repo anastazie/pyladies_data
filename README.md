@@ -118,9 +118,9 @@ Po instalaci zkontrolujte verze dle `requirements.txt`.
     
 ## Obhájené projekty
 
-[Petra Vidnerová](https://dash-students.herokuapp.com/)
-[Ivana Marošová](https://video-games-app.herokuapp.com/)
-[Kateřina Váňová](https://air-transfer.herokuapp.com/)
-[Lucie Baštová](https://cult-trade.herokuapp.com/)
+- [Petra Vidnerová](https://dash-students.herokuapp.com/)
+- [Ivana Marošová](https://video-games-app.herokuapp.com/)
+- [Kateřina Váňová](https://air-transfer.herokuapp.com/)
+- [Lucie Baštová](https://cult-trade.herokuapp.com/)
 
 
