@@ -123,4 +123,11 @@ Po instalaci zkontrolujte verze dle `requirements.txt`.
 - [Kateřina Váňová](https://air-transfer.herokuapp.com/)
 - [Lucie Baštová](https://cult-trade.herokuapp.com/)
 
+## Doporučená literatura
 
+- [Software Carpentry: The UNIX Shell](http://swcarpentry.github.io/shell-novice/)
+- [Data Carpentry](http://www.datacarpentry.org/lessons/)
+- [Practical computing for biologists](http://practicalcomputing.org/)
+- [Python for Biologists](http://pythonforbiologists.com)
+- [Python course in bioinformatics](http://users.ugent.be/~vstorme/files/PYTHON/PythonBioinformatics.pdf)
+- [Introduction to Programming using Python](https://drive.google.com/file/d/0B99fAy7pKkctWm9obFk2WDc2NVU/view?usp=sharing)
