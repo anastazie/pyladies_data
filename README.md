@@ -114,5 +114,13 @@ Po instalaci zkontrolujte verze dle `requirements.txt`.
     - [Informace](https://docs.google.com/presentation/d/1HLYrwprlPZuB2_e1Czo6WDplzqLF0k_ll-cN4p9vTOA/edit?usp=sharing)
     - [JupyterNotebook](https://github.com/anastazie/pyladies_data/blob/master/dash_data_preparation.ipynb)
     - [Příklad projektu](http://dash-birth.herokuapp.com/)
+    - [Kód](https://github.com/anastazie/pyladies_data/blob/master/dash_app.py)
+    
+## Obhájené projekty
+
+[Petra Vidnerová](https://dash-students.herokuapp.com/)
+[Ivana Marošová](https://video-games-app.herokuapp.com/)
+[Kateřina Váňová](https://air-transfer.herokuapp.com/)
+[Lucie Baštová](https://cult-trade.herokuapp.com/)
 
 
