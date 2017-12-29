@@ -49,7 +49,7 @@ venv
 .env
 ```
 
-6. Vytvořte konfigurační soubor `Procfile`
+6. Vytvořte konfigurační soubor `Procfile` s následujícím obsahem:
 
 ```
 web: gunicorn app:server
