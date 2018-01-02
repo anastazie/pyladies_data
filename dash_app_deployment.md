@@ -17,6 +17,8 @@ virtualenv venv               # vytvoří virtuální prostředí "venv"
 source venv/bin/activate      # aktivuje virtualenv
 ```
 
+*Poznámk:"* pokud by příkaz `source venv/bin/activate` nefungoval, zkuste `source venv/Scripts/activate`.
+
 3. Nainstalujte knihovny python
 
 ```
@@ -55,7 +57,7 @@ venv
 web: gunicorn app:server
 ```
 
-**Důležité**: `app` se musí shodovat s názvem aplikace (v tomto případě je název aplikace `app.py`)
+**Důležité: `app` se musí shodovat s názvem aplikace (v tomto případě je název aplikace `app.py`). Je potřeba, aby se `Procfile` jmenoval přesně takto bez přípony, ne `Procfile.txt`.**
 
 5. Vytvořte `requirements.txt` se seznamem potřebných knihoven
 ```
