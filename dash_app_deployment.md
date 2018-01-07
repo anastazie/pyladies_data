@@ -10,14 +10,27 @@ mkdir moje_aplikace
 
 2. Vytvořte virtuální prostředí a inicializujte verzování
 
+2.1. UNIX
+
 ```
 cd moje-aplikace
 git init                      # inicializuje prázdné git repo ve složce
-virtualenv venv               # vytvoří virtuální prostředí "venv"
+virtualenv venv               # vytvoří virtuální prostředí "venv" 
 source venv/bin/activate      # aktivuje virtualenv
 ```
 
-*Poznámk:"* pokud by příkaz `source venv/bin/activate` nefungoval, zkuste `source venv/Scripts/activate`.
+2.2. Anaconda prompt
+
+```
+cd moje-aplikace
+git init                      # inicializuje prázdné git repo ve složce
+conda create -n venv python=3 # vytvoří virtuální prostředí "venv"
+activate venv      # aktivuje virtualenv
+```
+
+*Poznámka:* `virtualenv` nainstalujte pomoci `pip install virtualenv` (UNIX). 
+
+Pokud by příkaz `source venv/bin/activate` nefungoval, zkuste `source venv/Scripts/activate`.
 
 3. Nainstalujte knihovny python
 
@@ -90,12 +103,13 @@ Spusťte server lokálně
 ```
 gunicorn app:server
 ```
+Pokud máte problém s instalací `gunicorn` na Windows, použíjte následující příkaz.
 
 Podívejte se na logy heroku
 ```
-heroku logs
+heroku logs -a <název applikace>
 ```
-
+Logy se také dají vidět po přihlášení na stránce [heroku](https://heroku.com) v sekci aplikace Activity -> View building log.
 
 9. Doplnění kódu a opětovné nasazení
 
