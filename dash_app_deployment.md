@@ -107,7 +107,7 @@ Pokud máte problém s instalací `gunicorn` na Windows, použíjte následujíc
 
 Podívejte se na logy heroku
 ```
-heroku logs -a <název applikace>
+heroku logs -a app
 ```
 Logy se také dají vidět po přihlášení na stránce [heroku](https://heroku.com) v sekci aplikace Activity -> View building log.
 
