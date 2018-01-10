@@ -45,6 +45,7 @@ Nainstalujte knihovnu potřebnou pro nasazení aplikace
 ```
 pip install gunicorn
 ```
+*Poznámka*: pokud máte Windows, neinstalujte knihovnu `gunicorn`, viz krok 10.
 
 4. V aplikaci nastavte poměnnou `app.server`
 ```
@@ -72,12 +73,12 @@ web: gunicorn app:server
 
 **Důležité: `app` se musí shodovat s názvem aplikace (v tomto případě je název aplikace `app.py`). Je potřeba, aby se `Procfile` jmenoval přesně takto bez přípony, ne `Procfile.txt`.**
 
-5. Vytvořte `requirements.txt` se seznamem potřebných knihoven
+7. Vytvořte `requirements.txt` se seznamem potřebných knihoven pomocí následujícího příkazu:
 ```
 pip freeze > requirements.txt
 ```
 
-6. Nainstalujte Heroku a založte si účet na [Heroku](https://heroku.com)
+8. Nainstalujte Heroku a založte si účet na [Heroku](https://heroku.com)
 
 [Návod na stránkách Heroku](https://devcenter.heroku.com/articles/heroku-cli)
 
@@ -85,7 +86,7 @@ pip freeze > requirements.txt
 heroku login
 ```
 
-7. Vytvořte aplikace Heroku, inicializujte Git a nasaďte aplikaci
+9. Vytvořte aplikace Heroku, inicializujte Git a nasaďte aplikaci
 
 ```
 heroku create moje-aplikace # změňte 'moje aplikace' na unikátní název
@@ -97,7 +98,7 @@ heroku config:set SECRET_KEY=my_secret_key # vyměňte my_secret_key za náhodn�
 ```
 Vaše  aplikace bude dostupná na adrese `https://moje-aplikace.herokuapp.com`.
 
-8. Ladění
+10. Ladění
 
 Spusťte server lokálně
 ```
@@ -111,7 +112,7 @@ heroku logs -a app
 ```
 Logy se také dají vidět po přihlášení na stránce [heroku](https://heroku.com) v sekci aplikace Activity -> View building log.
 
-9. Doplnění kódu a opětovné nasazení
+11. Doplnění kódu a opětovné nasazení
 
 ```
 git status # prohlednout změny
